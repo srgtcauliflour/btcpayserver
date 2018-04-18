@@ -46,6 +46,7 @@ namespace BTCPayServer
             _NBXplorerNetworkProvider = new NBXplorerNetworkProvider(chainType);
             ChainType = chainType;
             InitBitcoin();
+            InitStrayacoin();
             InitLitecoin();
             InitDogecoin();
         }
